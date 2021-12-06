@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BiFunction;
 
-public class Constants implements Opcodes extends Transformer<Constants> {
+public class Constants implements Opcodes {
     public static final String HIDE_ACCESS_DECRYPT_FIELD_SIG = "(I)Ljava/lang/reflect/Field;";
     public static final String HIDE_ACCESS_DECRYPT_METHOD_SIG = "(I)Ljava/lang/reflect/Method;";
 
